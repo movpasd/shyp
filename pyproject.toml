@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "shyp"
+version = "0.1.0"
+description = "Utilities for shell-like everyday computery tasks"
+authors = ["Movpasd <54367524+movpasd@users.noreply.github.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+black = { version = "^22.6.0", allow-prereleases = true }
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

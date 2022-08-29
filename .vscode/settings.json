@@ -1,0 +1,8 @@
+{
+    "python.formatting.provider": "black",
+    "python.analysis.typeCheckingMode": "strict",
+    "editor.rulers": [
+        88,
+    ],
+    "editor.wordWrapColumn": 88
+}
